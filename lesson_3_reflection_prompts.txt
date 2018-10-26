@@ -12,3 +12,7 @@ Describe the differences between forks, clones, and branches.  When would you us
     -Clones are created from any git repository, to another repository which may be on any machine, or even on the new spot on the same local filesystem as the original repository was. Commits can be pulled or pushed among repositories as far as the permission allows.
     -The original repository knows nothing about the clone until the clone pushes its content back to the original repository.
     -Branches are created inside of one single git repository and all the user of the repository can know what branches are there.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+    -Enables you to keep the state of the remote repository at your hand while you work on your branch locally, and also makes it easier for you to merge your own commits to the remote by merging it locally before you push to the remote.

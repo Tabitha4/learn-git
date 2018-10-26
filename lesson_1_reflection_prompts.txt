@@ -19,7 +19,7 @@ docs does?
 
 Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
 
-    Git is more programming oriented, where several files tend to consist one logical group. On the other hand, Google Docs is primarily more targeted for documents created for human readings, in which case each single file consists a meaningful piece.
+    Git is more programming oriented, where several files tend to consist one logical group. Google Docs is primarily more targeted for documents created for human reading, in which case each single file consists a meaningful piece.
 
 How can you use the commands git log and git diff to view the history of files?
 
